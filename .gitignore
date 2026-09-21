@@ -1,0 +1,9 @@
+.env
+config/headscale/config.yaml
+config/headplane/config.yaml
+data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.key
+*.pem
