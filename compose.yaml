@@ -5,6 +5,7 @@ services:
     command: serve
     volumes:
       - ./config/headscale/config.yaml:/etc/headscale/config.yaml:ro
+      - ./config/headscale/policy.hujson:/etc/headscale/policy.hujson:ro
       - headscale-data:/var/lib/headscale
       - headscale-run:/var/run/headscale
     expose:
