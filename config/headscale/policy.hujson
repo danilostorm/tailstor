@@ -1,0 +1,11 @@
+{
+  // MVP: dispositivos do mesmo usuário podem conversar entre si.
+  // Vamos endurecer a policy quando adicionarmos mais usuários/grupos.
+  "grants": [
+    {
+      "src": ["autogroup:self"],
+      "dst": ["autogroup:self"],
+      "ip": ["*"]
+    }
+  ]
+}
