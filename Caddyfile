@@ -1,0 +1,7 @@
+{$TAILSTOR_DOMAIN} {
+    reverse_proxy headscale:8080
+}
+
+{$TAILSTOR_ADMIN_DOMAIN} {
+    reverse_proxy headplane:3000
+}
